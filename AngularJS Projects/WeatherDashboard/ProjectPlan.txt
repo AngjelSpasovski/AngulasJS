@@ -46,7 +46,7 @@
 
 WeatherDashbord
 	app
-	content (css, images)
+	content
 	vendor
 	test
 
