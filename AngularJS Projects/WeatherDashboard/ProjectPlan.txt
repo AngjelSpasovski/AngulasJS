@@ -1,0 +1,52 @@
+
+======================== Weather Dashboard Project
+
+1. Search Weather
+	* Search box & Search Button
+	* Bootstrap 3.0.0 for styling
+
+2. List of Cities
+	* List of match of Cities that we are searching
+	* Including the weather info for them
+
+3. Show Weather Details
+	* Weather details data of each individual city
+	* Open Weather Map API from openweathermap.org
+
+4. Show Forecast
+	* Dashboard of forcast of next 7 days 
+	* Wind speed & Temperature of the next 7 days
+	* Height Charts from heightcharts.com
+
+
+======================== Design Constuction
+
+1. Features
+	* Search
+		- Models	: searchStr, cities		| data
+		- Views		: search box, city list	| directives 
+		- Contollers: Search				| user interaction (functions)
+		- Services	: weatherSvc			| response hendler of the application (requests) / bussiness logic
+
+	* Weather
+		- Models	: currentWeather		| curent weather data
+		- Views		: weather details		| weather details view
+		- Controlles: Weather				| user interaction (functions)
+		- Services 	: weatherSvc			| weather service / bussiness logic
+
+	* Forcast
+		- Models	: forcast				| curent forcast data
+		- Views		: forcast-dashboard		| forcast dashboard view
+					: forcast-list			| forcast details view
+		- Controlles: Forcast				| user interaction (functions)
+		- Services 	: weatherSvc			| weather service / bussiness logic
+
+
+======================== Folder Structure
+
+WeatherDashbord
+	app
+	content (css, images)
+	vendor
+	test
+
