@@ -3,7 +3,8 @@
 	var requires = [
 		"app.shell",
 		"app.search",
-		"app.weather"
+		"app.weather",
+		"app.forecast"
 	];
 
 	angular.module(name, requires)
