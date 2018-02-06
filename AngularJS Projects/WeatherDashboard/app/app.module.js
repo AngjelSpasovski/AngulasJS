@@ -2,7 +2,8 @@
 	var name = "app";
 	var requires = [
 		"app.shell",
-		"app.search"
+		"app.search",
+		"app.weather"
 	];
 
 	angular.module(name, requires)
